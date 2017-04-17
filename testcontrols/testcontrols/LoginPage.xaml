@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:testcontrols"
+             x:Class="testcontrols.LoginPage">
+
+    <Grid>
+        <local:AuthorizationView WidthRequest="300" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+    </Grid>
+
+</ContentPage>
