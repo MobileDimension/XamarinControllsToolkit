@@ -1,4 +1,4 @@
-﻿using BLL.Services;
+﻿using testcontrolls.BLL.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,25 +6,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Windows.UI.Popups;
 using Xamarin.Forms;
 
 namespace testcontrols.ViewModels
 {
-    public class AuthorizationViewModel : INotifyPropertyChanged
+    public class AuthorizationViewModel : BaseViewModel
     {
-        public ICommand RegisterCommand { protected set; get; }
+        public ICommand RegistrationCommand { protected set; get; }
         AuthorizationService _authorizationService;
         public AuthorizationViewModel()
         {
-            this.RegisterCommand = new Command(async () => { await Registration(); });
+            this.RegistrationCommand = new Command(() => { Registration(); });
             _authorizationService = Core.DI.Container.GetInstance<IAuthorizationService>() as AuthorizationService;
+            _authorizationService.AuthorizationChanged += _authorizationService_AuthorizationChanged;
         }
-        private async Task Registration()
+
+        void _authorizationService_AuthorizationChanged(bool isAuthorized)
+        {
+            IsLoading = false;
+        }
+
+        private void Registration()
         {
             IsLoading = true;
-            await _authorizationService.Login(Login);
-            IsLoading = false;
+            _authorizationService.Login(Login);
         }
         private bool _isLoading = false;
         public bool IsLoading
@@ -59,17 +64,6 @@ namespace testcontrols.ViewModels
                 }
             }
         }
-        
-#region NotifyRealization
-        public event PropertyChangedEventHandler PropertyChanged;
 
-        private void RaizePropertyChanged(params string[] propertyNames)
-        {
-            foreach(var name in propertyNames)
-            {
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-            }
-        }
-#endregion
     }
 }

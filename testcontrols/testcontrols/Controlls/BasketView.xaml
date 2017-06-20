@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="testcontrols.BasketView">
+	<ContentView.Content>
+        <Grid>
+        <ListView x:Name="products"
+                  ItemsSource="{Binding Products}" RowHeight="60" BackgroundColor="Teal">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                        
+                            <Image Margin="3" Source="{Binding ImageUrl}" Aspect="AspectFit"/>
+                            <Label Text="{Binding Title}" HorizontalTextAlignment="Center" TextColor="White" FontSize="20" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Grid Grid.Column="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5*"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="5*"/>
+                                </Grid.ColumnDefinitions>
+                                <Button HeightRequest="15" Text="-" TextColor="White" BackgroundColor="Red" HorizontalOptions="Center" Margin="5" Clicked="Remove_Clicked" CommandParameter="{Binding PositionId}"/>
+                                <Label Text="{Binding CountInBasket}" TextColor="White" Grid.Column="1" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" IsVisible="{Binding IsNotAdding}"/>
+                                <ActivityIndicator Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Color="Red"
+                                        IsEnabled="True" IsVisible="{Binding IsAddingInProfress}" IsRunning="True"/>
+                                <Button HeightRequest="15" Text="+" TextColor="White" BackgroundColor="Red" Grid.Column="2" HorizontalOptions="Center" Margin="5" Clicked="Add_Clicked" CommandParameter="{Binding Sku}"/>
+                            </Grid>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            </Grid>
+	</ContentView.Content>
+</ContentView>

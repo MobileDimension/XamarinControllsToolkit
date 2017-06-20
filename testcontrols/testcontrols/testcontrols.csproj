@@ -56,6 +56,43 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AuthorizationViewModel.cs" />
+    <Compile Include="Controlls\ProductsListing.xaml.cs">
+      <DependentUpon>ProductsListing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controlls\GridView.cs" />
+    <Compile Include="ViewModels\ProductsListingViewModel.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="BLL\Services\BasketService.cs" />
+    <Compile Include="BLL\Enums\RequestState.cs" />
+    <Compile Include="BLL\Models\BasketProduct.cs" />
+    <Compile Include="BLL\Models\Error.cs" />
+    <Compile Include="BLL\Services\IBasketService.cs" />
+    <Compile Include="BLL\Services\CatalogueService.cs" />
+    <Compile Include="BLL\Models\CatalogueProduct.cs" />
+    <Compile Include="Extentions\ImageResourceExtension.cs" />
+    <Compile Include="DAL\ClientRepository.cs" />
+    <Compile Include="DAL\Ticket.cs" />
+    <Compile Include="DAL\IResponse.cs" />
+    <Compile Include="DAL\ResponseModels\AuthorizationResponse.cs" />
+    <Compile Include="DAL\ResponseModels\SearchProductsResponse.cs" />
+    <Compile Include="DAL\ResponseModels\IResponseBody.cs" />
+    <Compile Include="DAL\ResponseModels\GetProductInfoResponse.cs" />
+    <Compile Include="DAL\ResponseModels\GetProductPriceResponse.cs" />
+    <Compile Include="DAL\ResponseModels\GetProductRemainsResponse.cs" />
+    <Compile Include="DAL\ResponseModels\BasketResponse.cs" />
+    <Compile Include="DAL\ResponseModels\Response.cs" />
+    <Compile Include="DAL\IClientRepository.cs" />
+    <Compile Include="DAL\CatalogRepository.cs" />
+    <Compile Include="DAL\Models\Products.cs" />
+    <Compile Include="DAL\ICatalogRepository.cs" />
+    <Compile Include="DAL\BasketRepository.cs" />
+    <Compile Include="DAL\IBasketRepository.cs" />
+    <Compile Include="BLL\Services\ICatalogService.cs" />
+    <Compile Include="Controlls\BasketView.xaml.cs">
+      <DependentUpon>BasketView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\BasketViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="LoginPage.xaml">
@@ -64,6 +101,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="App.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controlls\ProductsListing.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\TestImages\testimage.jpg" />
+    <EmbeddedResource Include="Controlls\BasketView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -89,6 +133,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\TestImages\" />
+    <Folder Include="BLL\Models\" />
+    <Folder Include="BLL\Enums\" />
+    <Folder Include="Extentions\" />
+    <Folder Include="DAL\" />
+    <Folder Include="DAL\ResponseModels\" />
+    <Folder Include="DAL\Models\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">

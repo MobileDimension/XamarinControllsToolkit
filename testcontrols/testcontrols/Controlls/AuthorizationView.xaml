@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="testcontrols.AuthorizationView">
   <ContentView.Content>
         <Grid>
@@ -6,14 +6,13 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <ActivityIndicator Grid.RowSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Color="Red"
-                               IsEnabled="True" IsVisible="{Binding IsLoading}" IsRunning="True"/>
             <Label Text="Авторизация" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
             <StackLayout Grid.Row="1" Orientation="Horizontal">
                 <Entry Text="{Binding Login, Mode=TwoWay}" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
-                <Button Text="OK" VerticalOptions="CenterAndExpand" Command="{Binding RegisterCommand}" BackgroundColor="Red" TextColor="White"/>
+                <Button Text="OK" VerticalOptions="CenterAndExpand" Command="{Binding RegistrationCommand}" BackgroundColor="Red" TextColor="White"/>
             </StackLayout>
-            
+            <ActivityIndicator Grid.RowSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Color="Red"
+                               IsEnabled="True" IsVisible="{Binding IsLoading}" IsRunning="True"/>
         </Grid>
     </ContentView.Content>
 </ContentView>

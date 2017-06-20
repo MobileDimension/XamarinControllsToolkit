@@ -1,47 +1,48 @@
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\testcontrols.Android.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\FormsViewGroup.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Java.Interop.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\Mono.Android.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\mscorlib.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Core.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Xml.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\testcontrols.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Runtime.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Collections.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.ObjectModel.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Globalization.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.ComponentModel.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.IO.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Threading.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Linq.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Net.Http.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/testcontrols.Android.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/FormsViewGroup.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.Design.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.v4.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.v7.CardView.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Forms.Core.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Java.Interop.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Mono.Android.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/mscorlib.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Core.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Xml.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Xml.Linq.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/testcontrols.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Runtime.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Collections.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.ObjectModel.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Globalization.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.ComponentModel.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Reflection.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Linq.Expressions.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.IO.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Dynamic.Runtime.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Threading.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Runtime.Extensions.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Linq.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Net.Http.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Runtime.Serialization.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.ServiceModel.Internals.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Collections.Concurrent.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Runtime.InteropServices.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/Mono.Security.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Resources.ResourceManager.dll
+/Users/stanislav/Projects/xamarin/toolkit/sprodan/XamarinControllsToolkit.git/testcontrols/testcontrols.Android/obj/Debug/android/assets/System.Diagnostics.Tools.dll

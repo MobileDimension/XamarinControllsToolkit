@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\testcontrols\testcontrols.csproj">
-      <Project>{5d771edd-aa18-4861-a800-dea57b3ccce9}</Project>
+      <Project>{E6800D5E-D6E1-4157-9294-1ADE6238C73A}</Project>
       <Name>testcontrols</Name>
     </ProjectReference>
   </ItemGroup>

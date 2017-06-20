@@ -1,10 +1,12 @@
-﻿using System.Threading.Tasks;
-using static BLL.Services.AuthorizationService;
+﻿using System;
+using System.Threading.Tasks;
 
-namespace BLL.Services
+namespace testcontrolls.BLL.Services
 {
     public interface IAuthorizationService
     {
-        event IsAuthorizedDelegate AuthorizationChanged;
-    }
+        event Action<bool> AuthorizationChanged;
+        void Login(string login);
+        void Logout();
+	}
 }
