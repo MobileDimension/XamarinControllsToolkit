@@ -31,7 +31,6 @@
                                     FontSize="20"
                                     />
                             </Grid>
-
                             <Grid Grid.Row="1" Padding="10">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2*"/>
@@ -58,35 +57,12 @@
                                     <Label Text="{Binding CountInBasket}" VerticalOptions="Center" Grid.Column="1" IsVisible="{Binding IsNotAdding}"/>
                                     <Button Grid.Column="2" Clicked="Handle_Clicked1" CommandParameter="{Binding Sku}" TextColor="White" Text="+1" BackgroundColor="Red" VerticalOptions="Center" HorizontalOptions="End"></Button>
                                 </Grid>
-                                
                             </Grid>
                         </Grid>
-                        
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Grid x:Name="basketGrid" HeightRequest="70" HorizontalOptions="FillAndExpand" VerticalOptions="End" BackgroundColor="Teal">
-            <Grid HeightRequest="500" IsVisible="{Binding IsBasketVisible}">
-                <controls:BasketView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></controls:BasketView>
-            </Grid>
-
-            <Grid  Padding="10" HeightRequest="70" HorizontalOptions="FillAndExpand" VerticalOptions="End">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="3*"/>
-                </Grid.ColumnDefinitions>
-                <Label Text="Всего:" FontSize="14" VerticalOptions="Center" TextColor="White" />
-                <Label Text="{Binding TotalCount}" VerticalOptions="Center" TextColor="White" Grid.Column="1"/>
-                <Label Text="Сумма:" FontSize="14" VerticalOptions="Center" TextColor="White" Grid.Column="2"/>
-                <Label Text="{Binding TotalPrice}" VerticalOptions="Center" TextColor="White" Grid.Column="3"/>
-                <Button Text="More" Clicked="Handle_Clicked"  HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="Red" TextColor="White"  Grid.Column="4"/>
-            </Grid>
-        </Grid>
-
         </Grid>
 	</ContentView.Content>
 </ContentView>

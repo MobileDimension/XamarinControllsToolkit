@@ -1,2 +1,2 @@
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols.UWP\testcontrols.UWP.csproj;x86
-C:\Users\Stas-pc\Documents\Visual Studio 2017\Projects\testcontrols\testcontrols\testcontrols\testcontrols.csproj;neutral
+C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols.UWP\testcontrols.UWP.csproj;x86
+C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols\testcontrols.csproj;neutral

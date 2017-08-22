@@ -8,21 +8,16 @@ namespace testcontrols.BLL.Services
 {
     public class BasketService : IBasketService
     {
-        private IBasketRepository _basketRepository;
-        private ICatalogRepository _catalogRepository;
-        private List<BasketProduct> _products;
+        private readonly IBasketRepository _basketRepository;
+        private readonly ICatalogRepository _catalogRepository;
+        private readonly List<BasketProduct> _products;
         public event Action<string, string> OnProductAddedSuccessfully;
         public event Action<string> OnProductAddedFailure;
 		public event Action<string, string> OnProductRemoveSuccessfully;
 		public event Action<string> OnProductRemoveFailure;
 
-        public int? TotalCount 
-        { 
-            get
-            {
-                return _products.Count;
-            }
-        }
+        public int? TotalCount => _products.Count;
+
         public int? TotalPrice
 		{
 			get
