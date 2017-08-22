@@ -7,7 +7,7 @@ namespace testcontrols
 {
     public partial class BasketView : ContentView
     {
-        private BasketViewModel _basketViewModel;
+        private readonly BasketViewModel _basketViewModel;
         public BasketView()
         {
             InitializeComponent();

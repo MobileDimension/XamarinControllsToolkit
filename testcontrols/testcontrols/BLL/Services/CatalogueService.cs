@@ -8,12 +8,16 @@ namespace testcontrols.BLL.Services
 {
     public class CatalogueService : ICatalogService
     {
-        private ICatalogRepository _catalogRepository;
+        private readonly ICatalogRepository _catalogRepository;
+
         public CatalogueService()
         {
             _products = new List<CatalogueProduct>();
             _catalogRepository = Core.DI.Container.GetInstance<ICatalogRepository>();
-            _catalogRepository.OnProductRemainsChanging += (sku, count) => OnProductRemainsReceived(sku, count);
+            _catalogRepository.OnProductRemainsChanging += (sku, count) =>
+            {
+                OnProductRemainsReceived?.Invoke(sku, count);
+            };
 
         }
         public event Action<string, string, string> OnProductInfoReceived;
@@ -21,21 +25,21 @@ namespace testcontrols.BLL.Services
 		public event Action<string, int?> OnProductRemainsReceived;
         public event Action<List<string>> OnCatalogueSkuReceived;
 
-		private List<CatalogueProduct> _products;
+		private readonly List<CatalogueProduct> _products;
 
 		public void StartSearchSkus(string searchQuery)
         {
             var ticket = _catalogRepository.SearchProductsTicket(searchQuery);
 			ticket.OnSuccess += (response) =>
 			{
-                if(response.Data.Skus != null)
+			    if(response.Data.Skus != null)
                 {
                     foreach(var sku in response.Data.Skus)
                     {
                         _products.Add(new CatalogueProduct() {Sku = sku});
                     }
                 }
-                OnCatalogueSkuReceived.Invoke(response.Data.Skus.ToList());
+			    OnCatalogueSkuReceived?.Invoke(response.Data.Skus.ToList());
 			};
         }
 
@@ -92,7 +96,6 @@ namespace testcontrols.BLL.Services
 				OnProductPriceReceived?.Invoke(null, null);
             };
         }
-
         public void StartLoadingProductRemains(string sku)
         {
 			var thisProduct = _products.FirstOrDefault(x => x.Sku == sku);

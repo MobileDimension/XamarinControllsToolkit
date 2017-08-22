@@ -12,7 +12,7 @@ namespace testcontrolls.BLL.Services
     {
         public event Action<bool> AuthorizationChanged;
 
-        private IClientRepository _clientRepository;
+        private readonly IClientRepository _clientRepository;
 
         public AuthorizationService()
         {
@@ -22,15 +22,15 @@ namespace testcontrolls.BLL.Services
         public void Login(string login)
         {
             var loginTicket = _clientRepository.Auth(login);
-            loginTicket.OnSuccess += (response) => 
+            loginTicket.OnSuccess += (response) =>
             {
-                AuthorizationChanged.Invoke(response.Data.IsAuthorized); 
+                AuthorizationChanged?.Invoke(response.Data.IsAuthorized);
             };
         }
         public void Logout()
         {
             // await go to server
-            AuthorizationChanged.Invoke(false);
+            AuthorizationChanged?.Invoke(false);
         }
 
     }
