@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-22T13:06:01.365</Modified>
+      <Modified>2017-08-22T16:03:49.016</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols.UWP\bin\x86\Debug\testcontrols.UWP.exe">
       <PackagePath>entrypoint\testcontrols.UWP.exe</PackagePath>
-      <Modified>2017-08-22T13:06:01.029</Modified>
+      <Modified>2017-08-22T16:03:48.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sprodan\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols\bin\Debug\testcontrols.dll">
       <PackagePath>testcontrols.dll</PackagePath>
-      <Modified>2017-08-22T13:05:59.666</Modified>
+      <Modified>2017-08-22T16:03:46.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -692,7 +692,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sprodan\Source\Repos\sprodan\xamarincontrolls\XamarinControllsToolkit\testcontrols\testcontrols.UWP\bin\x86\Debug\Core\testcontrols.UWP.exe">
       <PackagePath>testcontrols.UWP.exe</PackagePath>
-      <Modified>2017-08-22T13:06:01.361</Modified>
+      <Modified>2017-08-22T16:03:49.009</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
