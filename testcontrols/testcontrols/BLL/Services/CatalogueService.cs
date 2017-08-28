@@ -18,7 +18,6 @@ namespace testcontrols.BLL.Services
             {
                 OnProductRemainsReceived?.Invoke(sku, count);
             };
-
         }
         public event Action<string, string, string> OnProductInfoReceived;
 		public event Action<string, int?> OnProductPriceReceived;
